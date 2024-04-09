@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "ScjwHs4v7PngSVlx7aBOkXSj59xLZN74KyH92949/vq+LDkXs69CBU76ZIv1xL0AKGCVjkwfpW/vZ93iLOG0rQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pytho\\Desktop\\Projects\\FinanceBankSystemAPI\\BaseLibrary\\BaseLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pytho\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\pytho\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
+    "C:\\Users\\pytho\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.3\\microsoft.aspnetcore.components.8.0.3.nupkg.sha512",
+    "C:\\Users\\pytho\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.3\\microsoft.aspnetcore.components.analyzers.8.0.3.nupkg.sha512",
+    "C:\\Users\\pytho\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\8.0.3\\microsoft.aspnetcore.components.authorization.8.0.3.nupkg.sha512",
+    "C:\\Users\\pytho\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.3\\microsoft.aspnetcore.metadata.8.0.3.nupkg.sha512",
+    "C:\\Users\\pytho\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\pytho\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.1\\microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\pytho\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\pytho\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
