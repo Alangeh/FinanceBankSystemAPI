@@ -1,5 +1,6 @@
 ﻿using BaseLibrary.DTOs;
 using BaseLibrary.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ServerLibrary.Data;
@@ -9,6 +10,7 @@ namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class TransactionController(IGenericRepositoryInterface<UserTransactionAccount> genericRepositoryInterface, AppDbContext appDbContext) : ControllerBase
     {
         [HttpGet("all")]
@@ -35,6 +37,7 @@ namespace Server.Controllers
             }
 
             sender.Balance = sender.Balance - transactionAmount;
+            receiver.Balance = receiver.Balance + transactionAmount;
 
             // add transaction values
             Transaction currentTransaction = new()
